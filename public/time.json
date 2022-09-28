@@ -1,0 +1,82 @@
+[
+    {
+      "id": "1",
+      "name": "Sleeping Time",
+      "description":"I always try to get 7 to 8 hours of sleep, will try to reduce more from now on",
+      "time":1,
+      "Age":20,
+      "img": "https://images.unsplash.com/flagged/photo-1555697752-da25a4b1025b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1155&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Relax With Nature",
+      "description":"Spend some time with nature every day",
+      "time":2,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1472745433479-4556f22e32c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+    },
+    {
+      "id": "3",
+      "name": "GYM Time",
+      "description":"Light weight gives a little push up every day",
+      "time":0.30,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1618355281686-2b622387ada4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": "4",
+      "name": "break time",
+      "description":"I walk a little between work",
+      "time":0.10,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+    },
+    {
+      "id": "5",
+      "name": "Tea Break",
+      "description":"Sometimes need brack of tea",
+      "time":0.15,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1526396243362-aa62496aca59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": "6",
+      "name": "Dinnar Time",
+      "description":"I try to have dinner at 7P.M every day but it's late",
+      "time":1,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1616048513656-f00f9dcee457?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": "7",
+      "name": "Launce Time",
+      "description":"Every day 2:00P.M try to eat lunch at his time but it is done at 2:30P.M",
+      "time":0.30,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": "8",
+      "name": "Break Fast Time",
+      "description":"Every day I try to get up at 6:00A.M o'clock but after many attempts I can't get up so I have breakfast at 8:00A:M o'clock",
+      "time":0.45,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": "9",
+      "name": "Drink Water",
+      "description":"Try to drink water every 30 minutes",
+      "time":0.05,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1542849983-21ffec446f08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+    },
+    {
+      "id": "10",
+      "name": "Book Reading Time",
+      "description":"I want to read books every day but I can't read even a day, I tried to read every day before the course started",
+      "time":2,
+      "Age":20,
+      "img": "https://images.unsplash.com/photo-1499257398700-43669759a540?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    }
+]   
