@@ -7,3 +7,7 @@ margin-top: 10vh;
     display: grid;
     grid-template-columns: 4fr 1fr ;
 }
+.single-cart1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
