@@ -11,7 +11,7 @@ const Cart = (prop) => {
   }
   useEffect(() => {
     const getitem = localStorage.getItem("break", breaks || 0);
-    setBreaks(getitem);
+    setBreaks(getitem || 0);
   }, [breaks]);
   const addBreak = (breakss) => {
     const setItem = localStorage.setItem("break", breakss);
