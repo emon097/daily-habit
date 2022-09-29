@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import "./Cart.css";
 import Break from "../../Break/Break";
 const Cart = (prop) => {
-  const [breaks, setBreaks] = useState("");
+  const [breaks, setBreaks] = useState(0);
   const { habit } = prop;
 
   let total = 0;
@@ -13,7 +14,7 @@ const Cart = (prop) => {
     setBreaks(newhabit);
   };
   return (
-    <div>
+    <div className="side-bar">
       <Break addBreak={addBreak}></Break>
       <div className="full-sidebar">
         <div className="main">

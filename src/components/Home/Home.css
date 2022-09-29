@@ -97,3 +97,22 @@ margin-top: 10vh;
 .full-sidebar{
     padding: 3vh;
 }
+
+@media only screen and ( max-width:688px ){
+    .single-cart1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header{
+    
+        display: grid;
+        grid-template-columns:  1fr ;
+    }
+}
+
+@media only screen and ( min-width:688px ) and (max-width:992px){
+    .single-cart1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
