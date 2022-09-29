@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Cart.css";
 import Break from "../../Break/Break";
 import swal from "sweetalert";
@@ -9,9 +9,14 @@ const Cart = (prop) => {
   for (const habits of habit) {
     total = total + habits.time;
   }
+  useEffect(() => {
+    const getitem = localStorage.getItem("break", breaks);
+    setBreaks(getitem);
+  }, [breaks]);
   const addBreak = (breakss) => {
+    const setItem = localStorage.setItem("break", breakss);
     const newhabit = [breakss];
-    setBreaks(newhabit);
+    setBreaks(newhabit, setItem);
   };
   const alert = () => {
     swal("Good job!", " Your Activity Completed!", "success");
