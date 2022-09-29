@@ -97,6 +97,9 @@ margin-top: 10vh;
 .full-sidebar{
     padding: 3vh;
 }
+.faq{
+    margin-top: 50px;
+}
 
 @media only screen and ( max-width:688px ){
     .single-cart1{

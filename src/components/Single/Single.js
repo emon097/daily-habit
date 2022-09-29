@@ -3,7 +3,6 @@ import "./Single.css";
 const Single = (single) => {
   const { addtocart, singlecart } = single;
   const { Age, description, img, name, time } = singlecart;
-
   return (
     <div className="single-cart">
       <img className="cart-img" src={img} alt="" />
