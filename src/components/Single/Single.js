@@ -1,7 +1,9 @@
 import React from "react";
 import "./Single.css";
 const Single = (single) => {
-  const { Age, description, img, name, time } = single.single;
+  const { addtocart, singlecart } = single;
+  const { Age, description, img, name, time } = singlecart;
+
   return (
     <div className="single-cart">
       <img className="cart-img" src={img} alt="" />
@@ -18,7 +20,9 @@ const Single = (single) => {
         {" "}
         <strong>Time required:</strong> {time}hrs
       </p>
-      <button className="add-btn">Add to list</button>
+      <button onClick={() => addtocart(singlecart)} className="add-btn">
+        Add to list
+      </button>
     </div>
   );
 };
