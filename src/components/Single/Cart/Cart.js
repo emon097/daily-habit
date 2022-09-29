@@ -10,7 +10,7 @@ const Cart = (prop) => {
     total = total + habits.time;
   }
   useEffect(() => {
-    const getitem = localStorage.getItem("break", breaks || 0);
+    const getitem = localStorage.getItem("break", breaks);
     setBreaks(getitem || 0);
   }, [breaks]);
   const addBreak = (breakss) => {
