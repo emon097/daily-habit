@@ -2,7 +2,6 @@ import React from "react";
 
 const Break = (props) => {
   const { addBreak } = props;
-
   return (
     <div>
       <div className="main-break">

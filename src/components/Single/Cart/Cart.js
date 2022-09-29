@@ -3,14 +3,14 @@ import "./Cart.css";
 import Break from "../../Break/Break";
 import swal from "sweetalert";
 const Cart = (prop) => {
-  const [breaks, setBreaks] = useState(0);
+  const [breaks = 0, setBreaks] = useState();
   const { habit } = prop;
   let total = 0;
   for (const habits of habit) {
     total = total + habits.time;
   }
   useEffect(() => {
-    const getitem = localStorage.getItem("break", breaks);
+    const getitem = localStorage.getItem("break", breaks || 0);
     setBreaks(getitem);
   }, [breaks]);
   const addBreak = (breakss) => {
