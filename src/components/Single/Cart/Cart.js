@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Cart.css";
 import Break from "../../Break/Break";
+import swal from "sweetalert";
 const Cart = (prop) => {
   const [breaks, setBreaks] = useState(0);
   const { habit } = prop;
@@ -12,6 +13,9 @@ const Cart = (prop) => {
   const addBreak = (breakss) => {
     const newhabit = [breakss];
     setBreaks(newhabit);
+  };
+  const alert = () => {
+    swal("Good job!", " Your Activity Completed!", "success");
   };
   return (
     <div className="side-bar">
@@ -31,7 +35,9 @@ const Cart = (prop) => {
               <span>{breaks}</span> min
             </p>
           </div>
-          <button className="activity-btn">Activity Completed</button>
+          <button onClick={alert} className="activity-btn">
+            Activity Completed
+          </button>
         </div>
       </div>
     </div>
