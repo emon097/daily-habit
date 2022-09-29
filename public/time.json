@@ -19,7 +19,7 @@
       "id": "3",
       "name": "GYM Time",
       "description":"Light weight gives a little push up every day",
-      "time":0.30,
+      "time":2,
       "Age":20,
       "img": "https://images.unsplash.com/photo-1618355281686-2b622387ada4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
@@ -27,7 +27,7 @@
       "id": "4",
       "name": "break time",
       "description":"I walk a little between work",
-      "time":0.10,
+      "time":2,
       "Age":20,
       "img": "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
     },
@@ -35,7 +35,7 @@
       "id": "5",
       "name": "Tea Break",
       "description":"Sometimes need brack of tea",
-      "time":0.15,
+      "time":1,
       "Age":20,
       "img": "https://images.unsplash.com/photo-1526396243362-aa62496aca59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
@@ -51,7 +51,7 @@
       "id": "7",
       "name": "Launce Time",
       "description":"Every day 2:00P.M try to eat lunch at his time but it is done at 2:30P.M",
-      "time":0.30,
+      "time":3,
       "Age":20,
       "img": "https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
@@ -59,7 +59,7 @@
       "id": "8",
       "name": "Break Fast Time",
       "description":"Every day I try to get up at 6:00A.M o'clock but after many attempts I can't get up so I have breakfast at 8:00A:M o'clock",
-      "time":0.45,
+      "time":1,
       "Age":20,
       "img": "https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
@@ -67,7 +67,7 @@
       "id": "9",
       "name": "Drink Water",
       "description":"Try to drink water every 30 minutes",
-      "time":0.05,
+      "time":2,
       "Age":20,
       "img": "https://images.unsplash.com/photo-1542849983-21ffec446f08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
     },

@@ -1,0 +1,50 @@
+.profile-img{
+    width: 7vh;
+    border-radius: 20vh;
+    margin: 1vh;
+    margin-top: 5vh;
+}
+.profile-section{
+    display: flex;
+    border-radius: 2vh;
+    background-color: rgb(210, 230, 248);
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 1vh;
+}
+.name{
+    margin-bottom: 0px;
+}
+.designation{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 2vh;
+    margin-right: 1vh;
+    margin-top: 2vh;
+}
+.occ{
+    margin: 2vh;
+}
+.break{
+    background-color: aliceblue;
+    width: 38vh;
+    padding: 1vh;
+    height: 7vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 1vh;
+    border-radius: 2vh;
+}
+.single-btn{
+    border: none;
+    width: 8vh;
+    margin: 1vh;
+    background-color: darkblue;
+    color: white;
+    height: 5vh;
+    border-radius: 8vh;
+}
+.single-btn:hover{
+    background-color:rgb(65, 65, 101); ;
+}

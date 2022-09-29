@@ -6,10 +6,10 @@ const Single = (single) => {
     <div className="single-cart">
       <img className="cart-img" src={img} alt="" />
       <h2>{name}</h2>
-      <p>{description}</p>
-      <p>For age: {Age}</p>
-      <p>Time required: {time}</p>
-      <button>Add to list</button>
+      <p className="similer-m">{description}</p>
+      <p className="similer-m">For age: {Age}</p>
+      <p className="similer-m">Time required: {time}hrs</p>
+      <button className="add-btn">Add to list</button>
     </div>
   );
 };

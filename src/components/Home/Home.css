@@ -3,7 +3,7 @@ margin-left: 13vh;
 margin-top: 10vh;
 }
 .header{
-    margin-left: 4vh;
+    
     display: grid;
     grid-template-columns: 4fr 1fr ;
 }

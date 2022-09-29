@@ -1,8 +1,31 @@
 .cart-img{
-    width: 36vh;
+    width: 42vh;
     border-radius: 2vh;
+    margin-left: 6px;
+    margin-top: 7px;
 }
 .single-cart{
     display: grid;
     grid-template-columns: repeat(3fr, 1fr);
+}
+.single-cart{
+    border: 1px solid gray;
+    margin: 2vh;
+    padding: 10px;
+    border-radius: 1.5vh;
+}
+.add-btn{
+    border: none;
+    width: 29vh;
+    height: 6vh;
+    border-radius: 1vh;
+    background-color:darkblue;
+    color: white;
+}
+.add-btn:hover{
+    background-color:rgb(65, 65, 101);
+}
+.similer-m{
+    margin-bottom: 4px;
+    margin-top: 0px;
 }
