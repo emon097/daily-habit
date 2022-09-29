@@ -6,9 +6,18 @@ const Single = (single) => {
     <div className="single-cart">
       <img className="cart-img" src={img} alt="" />
       <h2>{name}</h2>
-      <p className="similer-m">{description}</p>
-      <p className="similer-m">For age: {Age}</p>
-      <p className="similer-m">Time required: {time}hrs</p>
+      <p className="similer-m">
+        {" "}
+        <strong>{description}</strong>{" "}
+      </p>
+      <p className="similer-m">
+        {" "}
+        <strong>For age:</strong> {Age}
+      </p>
+      <p className="similer-m">
+        {" "}
+        <strong>Time required:</strong> {time}hrs
+      </p>
       <button className="add-btn">Add to list</button>
     </div>
   );

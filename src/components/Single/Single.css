@@ -1,8 +1,8 @@
 .cart-img{
     width: 42vh;
     border-radius: 2vh;
-    margin-left: 6px;
-    margin-top: 7px;
+    margin-left: 3px;
+    margin-top: 3.8px;
 }
 .single-cart{
     display: grid;
@@ -21,6 +21,7 @@
     border-radius: 1vh;
     background-color:darkblue;
     color: white;
+    font-size: 20px;
 }
 .add-btn:hover{
     background-color:rgb(65, 65, 101);

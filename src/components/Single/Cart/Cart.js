@@ -2,8 +2,8 @@ import React from "react";
 import "./Cart.css";
 const Cart = () => {
   return (
-    <div>
-      <h1> total activity</h1>
+    <div className="full-sidebar">
+      {/* <h1> total activity</h1>
       <div className="profile-section">
         <div>
           <img
@@ -26,22 +26,42 @@ const Cart = () => {
           {" "}
           <strong>Age</strong> :20
         </p>
-      </div>
-      <h3>Add Break</h3>
-      <div className="break">
-        <button className="single-btn">
-          <span>10</span>m
-        </button>
-        <button className="single-btn">
-          <span>10</span>m
-        </button>
-        <button className="single-btn">
-          <span>10</span>m
-        </button>
-        <button className="single-btn">
-          {" "}
-          <span>10</span> m
-        </button>
+      </div> */}
+      {/* <div className="main-break">
+        <h3>Add Break</h3>
+        <div className="break">
+          <button className="single-btn">
+            <span>10</span>m
+          </button>
+          <button className="single-btn">
+            <span>10</span>m
+          </button>
+          <button className="single-btn">
+            <span>10</span>m
+          </button>
+          <button className="single-btn">
+            {" "}
+            <span>10</span> m
+          </button>
+        </div>
+      </div> */}
+      <div className="main">
+        <h3>Time Manage</h3>
+        <div className="total-time">
+          <h3>Total Time</h3>
+          <p>
+            {" "}
+            <span>00</span> hrs{" "}
+          </p>
+        </div>
+        <div className="break-time">
+          <h3>Break Time</h3>
+          <p>
+            {" "}
+            <span>00</span> hrs{" "}
+          </p>
+        </div>
+        <button className="activity-btn">Activity Completed</button>
       </div>
     </div>
   );

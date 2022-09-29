@@ -20,7 +20,7 @@
     background-color: aliceblue;
     border-radius: 2vh;
     margin-right: 1vh;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 .occ{
     margin: 2vh;
@@ -44,7 +44,43 @@
     color: white;
     height: 5vh;
     border-radius: 8vh;
+    font-size: 1.9vh;
 }
 .single-btn:hover{
-    background-color:rgb(65, 65, 101); ;
+    background-color:rgb(65, 65, 101); 
+}
+.total-time{
+    display: flex;
+    justify-content:space-around;
+    background-color: aliceblue;
+    border-radius: 2vh;
+    margin-bottom: 2vh;
+}
+.break-time{
+    display: flex;
+    justify-content:space-around;
+    background-color: aliceblue;
+    border-radius: 2vh;
+}
+.main{
+    margin-top: 6vh;
+}
+.main-break{
+    margin-top: 8vh;
+}
+.activity-btn{
+    border: none;
+    background-color: darkblue;
+    width: 41.5vh;
+    color: white;
+    height: 6vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+    font-size: 2.2vh;
+}
+.activity-btn:hover{
+    background-color:rgb(65, 65, 101);
+}
+.full-sidebar{
+    padding: 3vh;
 }
